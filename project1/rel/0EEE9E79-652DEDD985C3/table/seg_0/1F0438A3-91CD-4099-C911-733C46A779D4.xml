@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F0438A3-91CD-4099-C911-733C46A779D4" name="SP16_President">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 22:33:00 UTC</createdTime>
+<generatorID>B4E54037-72B4-8E5B-DDD3-2F068B8166A2</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="1D2EDFC6-C3BB-9C77-97B9-0D705AFE064C">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 22:33:00 UTC</createdTime>
+<generatorID>380D4A8E-D5D9-A52C-ADB9-94FB95069821</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97F9E113-E153-547E-A49E-88C8B062B587" referredColumn="30A8EFED-7C7D-FA3B-0781-002F853C3171"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93C4DDD0-6B30-D98C-AECA-83BD042BAD59" name="SP16_President_PK">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 22:33:00 UTC</createdTime>
+<generatorID>74CD2EF3-0023-23F5-C550-E1C76EFF8B04</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D2EDFC6-C3BB-9C77-97B9-0D705AFE064C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23D8F134-4036-BDAE-0B7C-F9ABE614632F" name="SP16_President_SP16_Manager_FK">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 22:33:00 UTC</createdTime>
+<generatorID>3DDA9498-8572-BB1D-3190-061C5A3C4D96</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D2EDFC6-C3BB-9C77-97B9-0D705AFE064C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

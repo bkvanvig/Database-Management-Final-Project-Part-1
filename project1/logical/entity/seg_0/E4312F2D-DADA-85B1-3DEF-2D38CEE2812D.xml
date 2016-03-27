@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4312F2D-DADA-85B1-3DEF-2D38CEE2812D" name="SP16_Previous_Employee">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 21:51:13 UTC</createdTime>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="0EEE9E79-5A3F-D984-AEC7-652DEDD985C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>E38860F0-D304-45DB-E876-67735C59C3E7</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="isFired" id="BFC23ECF-3A64-E8CB-52B4-B452BFA75BF5">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 21:56:05 UTC</createdTime>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="0EEE9E79-5A3F-D984-AEC7-652DEDD985C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="7B48A8E5-3D4A-F705-C5CB-88B3B1272EB3">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 21:56:19 UTC</createdTime>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="0EEE9E79-5A3F-D984-AEC7-652DEDD985C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

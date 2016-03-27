@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="project1" id="BEC4DD48-7838-950F-E9D0-533890468652" version="3.5">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 21:22:18 UTC</createdTime>
+<ownerDesignName>project1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BEC4DD48-7838-950F-E9D0-533890468652</designId>
+</OSDM_Design>

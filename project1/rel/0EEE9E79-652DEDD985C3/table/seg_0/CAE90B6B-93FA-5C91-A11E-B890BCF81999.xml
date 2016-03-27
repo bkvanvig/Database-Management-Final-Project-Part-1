@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAE90B6B-93FA-5C91-A11E-B890BCF81999" name="SP16_Project_Employee">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 22:33:00 UTC</createdTime>
+<generatorID>50966030-72DB-EE7E-7DF3-857330FC7D56</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="714DA02F-BD30-4A83-7CDF-791799580E59">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 22:33:00 UTC</createdTime>
+<generatorID>380D4A8E-D5D9-A52C-ADB9-94FB95069821</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="744E5DCD-1C24-8F83-3657-7E49D669EF73" referredColumn="F3813CFA-0DE6-351E-C6DC-BC704F5DD3E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C932B333-92B2-DF2B-28FD-01EE1A105537" name="SP16_Project_Employee_PK">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 22:33:00 UTC</createdTime>
+<generatorID>74CD2EF3-0023-23F5-C550-E1C76EFF8B04</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="714DA02F-BD30-4A83-7CDF-791799580E59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFE9730E-82B0-D181-9270-D25461696DE6" name="SP16_Project_Employee_SP16_Employee_FK">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 22:33:00 UTC</createdTime>
+<generatorID>AC993FD0-FEFF-B00B-9CBF-BA57A775087C</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="714DA02F-BD30-4A83-7CDF-791799580E59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="787654D7-2318-B086-D982-BE021D8D395A" name="SP16_R4v1">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-27 22:58:12 UTC</createdTime>
+<generatorID>5A806348-67BB-A4E8-5F81-75E2608DA396</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>
