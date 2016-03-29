@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D31C9A20-8B70-A2A0-136A-64D8F180A659" containerWithKeyObject="D7EAC776-86EF-CA1E-3F2B-B7A1CFC1789E" localFKIndex="CF04641C-F185-FCA5-FB3A-B06600274D0E" name="SP16_Current_Project_SP16_Project_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D31C9A20-8B70-A2A0-136A-64D8F180A659" containerWithKeyObject="D7EAC776-86EF-CA1E-3F2B-B7A1CFC1789E" localFKIndex="CF04641C-F185-FCA5-FB3A-B06600274D0E" name="SP16_Curr_Proj_Proj_FK">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>C3966DD7-E10A-4B5F-EFCA-CAE3A3762D00</generatorID>
@@ -12,5 +12,6 @@
 <mandatory>true</mandatory>
 <transferable>true</transferable>
 <rely>false</rely>
+<discriminatorValue>project-no</discriminatorValue>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

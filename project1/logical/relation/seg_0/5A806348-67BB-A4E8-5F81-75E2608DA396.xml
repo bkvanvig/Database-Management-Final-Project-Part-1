@@ -9,7 +9,7 @@
 <identifying>false</identifying>
 <nameOnSource>project-members</nameOnSource>
 <nameOnTarget>current-projects</nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>50966030-72DB-EE7E-7DF3-857330FC7D56</sourceEntity>

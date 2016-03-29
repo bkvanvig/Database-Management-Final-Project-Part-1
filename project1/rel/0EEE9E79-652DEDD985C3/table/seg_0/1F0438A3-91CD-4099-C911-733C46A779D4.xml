@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F0438A3-91CD-4099-C911-733C46A779D4" name="SP16_President">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F0438A3-91CD-4099-C911-733C46A779D4" name="SP16_Pres">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>B4E54037-72B4-8E5B-DDD3-2F068B8166A2</generatorID>
 <ownerDesignName>project1</ownerDesignName>
+<abbreviation>Pres</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -36,7 +37,7 @@
 <colUsage columnID="1D2EDFC6-C3BB-9C77-97B9-0D705AFE064C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="23D8F134-4036-BDAE-0B7C-F9ABE614632F" name="SP16_President_SP16_Manager_FK">
+<ind_PK_UK id="23D8F134-4036-BDAE-0B7C-F9ABE614632F" name="SP16_Pres_Mgr_FK">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>3DDA9498-8572-BB1D-3190-061C5A3C4D96</generatorID>

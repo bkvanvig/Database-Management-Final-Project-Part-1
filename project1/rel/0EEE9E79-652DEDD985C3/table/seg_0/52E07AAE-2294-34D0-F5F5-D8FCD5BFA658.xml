@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52E07AAE-2294-34D0-F5F5-D8FCD5BFA658" name="SP16_Department">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52E07AAE-2294-34D0-F5F5-D8FCD5BFA658" name="SP16_Dept">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>AA78E217-481F-FD05-829D-6F1545069B86</generatorID>
 <ownerDesignName>project1</ownerDesignName>
+<abbreviation>Dept</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -18,6 +19,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A19A329-F479-4BC6-2BC6-A264AC8012CF" referredColumn="E139A1BE-BD01-3D9F-81E1-A428222C203B"/>
+</associations>
 </Column>
 <Column name="dept-name" id="7707CDB2-8BFD-EDBB-E4AA-FA7D22D69A53">
 <createdBy>brittkvanvig</createdBy>
@@ -70,6 +74,18 @@
 <colAssociation fkAssociation="7DB3FD18-B571-BC1F-FDB0-7237B39E4464" referredColumn="30A8EFED-7C7D-FA3B-0781-002F853C3171"/>
 </associations>
 </Column>
+<Column name="employee_id" id="A1E2F7D0-C804-076C-186D-FE9246A59308">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-29 22:41:27 UTC</createdTime>
+<generatorID>7DC0142C-074F-D13D-0DBD-EAB1A60706BC</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5DAAAB23-390F-BD3F-CE0C-69B14A82DC35" name="SP16_Department_PK">
@@ -82,7 +98,7 @@
 <colUsage columnID="997F4D5E-1C5F-B60E-1D4C-04C14092CDD2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3A47DBEA-D786-A54A-DD9A-AEC43B78417C" name="SP16_Department_SP16_Manager_FK">
+<ind_PK_UK id="3A47DBEA-D786-A54A-DD9A-AEC43B78417C" name="SP16_Dept_Mgr_FK">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>0EB5D8CC-EF15-64CD-1B1E-4A5C4130EE46</generatorID>
@@ -93,13 +109,16 @@
 <colUsage columnID="C3353E33-C715-32AF-C36C-52C7C554ACD1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A872C5B2-478D-E130-276D-24B985CD5CA3" name="SP16_R8v1">
+<ind_PK_UK id="B736002E-05B4-618A-3EBF-AEB361AEABE8" name="SP16_R8v1">
 <createdBy>brittkvanvig</createdBy>
-<createdTime>2016-03-27 22:58:12 UTC</createdTime>
+<createdTime>2016-03-29 23:17:38 UTC</createdTime>
 <generatorID>94EDFA2E-BB97-0DB5-56F3-1D2889F48D10</generatorID>
 <ownerDesignName>project1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB71AAF5-796F-DE1A-D7CF-09CD8620FFD9"/>
+</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

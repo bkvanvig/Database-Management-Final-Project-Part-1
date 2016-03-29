@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42A3B1BC-9930-EC9A-90F4-F3AA3054BCAC" containerWithKeyObject="A14B0DA9-82A4-BAFA-7476-80CA8533C334" localFKIndex="ADC41080-E624-004D-04F0-197DC064960A" name="SP16_Previous_Employee_SP16_Person_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42A3B1BC-9930-EC9A-90F4-F3AA3054BCAC" containerWithKeyObject="A14B0DA9-82A4-BAFA-7476-80CA8533C334" localFKIndex="ADC41080-E624-004D-04F0-197DC064960A" name="SP16_Prev_Emp_Pers_FK">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>269E49C4-C381-6922-64F4-A961085C8ACC</generatorID>
@@ -12,5 +12,6 @@
 <mandatory>true</mandatory>
 <transferable>true</transferable>
 <rely>false</rely>
+<discriminatorValue>person_id</discriminatorValue>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

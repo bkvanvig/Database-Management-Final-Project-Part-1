@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A14B0DA9-82A4-BAFA-7476-80CA8533C334" name="SP16_Previous_Employee">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A14B0DA9-82A4-BAFA-7476-80CA8533C334" name="SP16_Prev_Emp">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>E4312F2D-DADA-85B1-3DEF-2D38CEE2812D</generatorID>
 <ownerDesignName>project1</ownerDesignName>
+<abbreviation>Prev_Emp</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -22,7 +23,7 @@
 <colAssociation fkAssociation="42A3B1BC-9930-EC9A-90F4-F3AA3054BCAC" referredColumn="DB3AA99E-5A5D-23EF-E311-7A1248E8F7F1"/>
 </associations>
 </Column>
-<Column name="isFired" id="7B156D99-C9F8-B8D4-6913-C540C5187581">
+<Column name="Prev_Emp_isFired" id="7B156D99-C9F8-B8D4-6913-C540C5187581">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>BFC23ECF-3A64-E8CB-52B4-B452BFA75BF5</generatorID>
@@ -35,7 +36,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="salary" id="775B7F55-399A-ED67-97D9-D6B65DC364C3">
+<Column name="Prev_Emp_salary" id="775B7F55-399A-ED67-97D9-D6B65DC364C3">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>7B48A8E5-3D4A-F705-C5CB-88B3B1272EB3</generatorID>
@@ -60,7 +61,7 @@
 <colUsage columnID="69AD11A6-90CD-42DF-785A-ABB53100310B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="ADC41080-E624-004D-04F0-197DC064960A" name="SP16_Previous_Employee_SP16_Person_FK">
+<ind_PK_UK id="ADC41080-E624-004D-04F0-197DC064960A" name="SP16_Prev_Emp_Pers_FK">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>269E49C4-C381-6922-64F4-A961085C8ACC</generatorID>

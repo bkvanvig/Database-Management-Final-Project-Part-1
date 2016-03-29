@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35403868-DA83-3D84-7261-ABA6CD8B5F2B" containerWithKeyObject="62667874-B1D3-6C9D-3A90-5D08B3992AA5" localFKIndex="A2B57F08-56DA-EA67-7135-FCB4299CCC56" name="SP16_Manager_SP16_Project_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9856DA0E-8A06-2239-7EDD-F70DC8F7E473" containerWithKeyObject="62667874-B1D3-6C9D-3A90-5D08B3992AA5" localFKIndex="681686A8-1588-42BC-ABE2-913EDEEBE786" name="SP16_Mgr_SP16_Proj_FK">
 <createdBy>brittkvanvig</createdBy>
-<createdTime>2016-03-27 22:58:12 UTC</createdTime>
+<createdTime>2016-03-29 23:17:38 UTC</createdTime>
 <generatorID>B172FCF3-18B2-303A-1938-4B80A3695AEA</generatorID>
 <ownerDesignName>project1</ownerDesignName>
 <deleteRule>NO ACTION</deleteRule>

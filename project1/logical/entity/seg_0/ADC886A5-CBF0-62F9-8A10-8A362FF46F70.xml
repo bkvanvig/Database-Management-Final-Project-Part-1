@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADC886A5-CBF0-62F9-8A10-8A362FF46F70" name="SP16_Manager">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADC886A5-CBF0-62F9-8A10-8A362FF46F70" name="SP16_Mgr">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 21:48:45 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>Mgr</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="bonus" id="A8EFBAC6-F01C-C5E8-4CC2-294824DC2933">
 <createdBy>brittkvanvig</createdBy>
@@ -29,20 +30,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="employee-id" id="7625CDCE-6802-E505-2117-2D3371C4B11D">
-<createdBy>brittkvanvig</createdBy>
-<createdTime>2016-03-27 22:02:59 UTC</createdTime>
-<generatorID>4E26D20C-E98A-38C6-8CB2-49E9D243E06F</generatorID>
-<ownerDesignName>project1</ownerDesignName>
-<engineerTo>
-<item key="0EEE9E79-5A3F-D984-AEC7-652DEDD985C3" value="true"/>
-</engineerTo>
-<referedAttribute>A91D8CD5-0871-23A3-66FC-61DA6E14DFF6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="project-no" id="8AA37AB2-773D-C7C6-2239-102A8CBC0E57">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:09:21 UTC</createdTime>
@@ -52,6 +39,20 @@
 <item key="0EEE9E79-5A3F-D984-AEC7-652DEDD985C3" value="true"/>
 </engineerTo>
 <referedAttribute>2ADCC9A5-0609-B885-5E60-80A978FA5BA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="8174EFED-AA32-7F46-DDCA-6E5113CB34F9">
+<createdBy>brittkvanvig</createdBy>
+<createdTime>2016-03-29 22:41:14 UTC</createdTime>
+<generatorID>4E26D20C-E98A-38C6-8CB2-49E9D243E06F</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="0EEE9E79-5A3F-D984-AEC7-652DEDD985C3" value="true"/>
+</engineerTo>
+<referedAttribute>554D3D72-4334-0BC0-9F92-EAB1DDBCD5C3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

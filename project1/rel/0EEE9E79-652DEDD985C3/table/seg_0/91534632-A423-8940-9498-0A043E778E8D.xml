@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4302420-9D84-66A4-0D75-C0F6A4846363" name="SP16_R8">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91534632-A423-8940-9498-0A043E778E8D" name="SP16_R8">
 <createdBy>brittkvanvig</createdBy>
-<createdTime>2016-03-27 22:58:12 UTC</createdTime>
+<createdTime>2016-03-29 23:17:38 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="SP16_Department_SP16_Department_ID" id="6C2103A5-8E8B-2DB9-3294-82BB946972CD">
+<Column name="SP16_Dept_SP16_Department_ID" id="A2EAA47D-5971-1A7B-DCC7-A6B039CA855E">
 <createdBy>brittkvanvig</createdBy>
-<createdTime>2016-03-27 22:58:12 UTC</createdTime>
+<createdTime>2016-03-29 23:17:38 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,12 +18,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="22DD7EEE-216D-9718-ED17-11BD82C6E273" referredColumn="997F4D5E-1C5F-B60E-1D4C-04C14092CDD2"/>
+<colAssociation fkAssociation="F805E0E0-33AE-273E-36F0-3EE15E60261F" referredColumn="997F4D5E-1C5F-B60E-1D4C-04C14092CDD2"/>
 </associations>
 </Column>
-<Column name="SP16_Project_project-no" id="8BCE47D3-2AD9-4297-AE7A-572EAA6E7A52">
+<Column name="SP16_Proj_Proj_project-no" id="4E03556C-81AB-1435-7736-C8CDACFDEC1B">
 <createdBy>brittkvanvig</createdBy>
-<createdTime>2016-03-27 22:58:12 UTC</createdTime>
+<createdTime>2016-03-29 23:17:38 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,43 +32,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FB7DC39A-AAFD-3088-081B-F71DF6A5F505" referredColumn="E139A1BE-BD01-3D9F-81E1-A428222C203B"/>
+<colAssociation fkAssociation="7BB95839-C2BB-1D6A-62E3-8850310843F9" referredColumn="E139A1BE-BD01-3D9F-81E1-A428222C203B"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D4D63CAD-438D-C6B2-66F7-4FE1FC7854D9" name="SP16_R8_PK">
+<ind_PK_UK id="4749D306-CDC5-EFEF-CCFD-117AA6F10EB1" name="SP16_R8_PK">
 <createdBy>brittkvanvig</createdBy>
-<createdTime>2016-03-27 22:58:12 UTC</createdTime>
+<createdTime>2016-03-29 23:17:38 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6C2103A5-8E8B-2DB9-3294-82BB946972CD"/>
-<colUsage columnID="8BCE47D3-2AD9-4297-AE7A-572EAA6E7A52"/>
+<colUsage columnID="A2EAA47D-5971-1A7B-DCC7-A6B039CA855E"/>
+<colUsage columnID="4E03556C-81AB-1435-7736-C8CDACFDEC1B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4ADEE7F8-F7E1-86CF-292A-8AC610DE686B" name="FK_ASS_106">
+<ind_PK_UK id="31DCA1D3-C7D7-182F-A02F-85FA5EC46615" name="FK_ASS_81">
 <createdBy>brittkvanvig</createdBy>
-<createdTime>2016-03-27 22:58:12 UTC</createdTime>
+<createdTime>2016-03-29 23:17:38 UTC</createdTime>
 <generatorID>94EDFA2E-BB97-0DB5-56F3-1D2889F48D10</generatorID>
 <ownerDesignName>project1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6C2103A5-8E8B-2DB9-3294-82BB946972CD"/>
+<colUsage columnID="A2EAA47D-5971-1A7B-DCC7-A6B039CA855E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6569BB6F-9B48-79E4-9264-186E8E44AE1C" name="FK_ASS_107">
+<ind_PK_UK id="182AD124-CFFA-9207-A660-C4F16B48DE8B" name="FK_ASS_82">
 <createdBy>brittkvanvig</createdBy>
-<createdTime>2016-03-27 22:58:12 UTC</createdTime>
+<createdTime>2016-03-29 23:17:38 UTC</createdTime>
 <generatorID>94EDFA2E-BB97-0DB5-56F3-1D2889F48D10</generatorID>
 <ownerDesignName>project1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8BCE47D3-2AD9-4297-AE7A-572EAA6E7A52"/>
+<colUsage columnID="4E03556C-81AB-1435-7736-C8CDACFDEC1B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

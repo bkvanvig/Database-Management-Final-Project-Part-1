@@ -11,7 +11,7 @@
 <identifying>false</identifying>
 <nameOnSource>spouse</nameOnSource>
 <nameOnTarget>spouse</nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>E38860F0-D304-45DB-E876-67735C59C3E7</sourceEntity>

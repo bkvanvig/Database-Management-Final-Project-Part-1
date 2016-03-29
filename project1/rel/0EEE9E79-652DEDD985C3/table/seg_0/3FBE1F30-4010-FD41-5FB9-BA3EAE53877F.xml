@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FBE1F30-4010-FD41-5FB9-BA3EAE53877F" name="SP16_Previous_Project">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FBE1F30-4010-FD41-5FB9-BA3EAE53877F" name="SP16_Prev_Proj">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>3FD5D015-DFC7-A3C0-F2A4-0B0368149045</generatorID>
 <ownerDesignName>project1</ownerDesignName>
+<abbreviation>Prev_Proj</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -22,7 +23,7 @@
 <colAssociation fkAssociation="8E55CE64-06B7-8D4B-1A80-B21D4C7353C3" referredColumn="E139A1BE-BD01-3D9F-81E1-A428222C203B"/>
 </associations>
 </Column>
-<Column name="end-date-month" id="12B9C73B-9F29-1CFE-F838-2357566C547A">
+<Column name="Prev_Proj_end-date-month" id="12B9C73B-9F29-1CFE-F838-2357566C547A">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>D0C35684-98F2-760A-A9FE-26DEC47E5F5F</generatorID>
@@ -34,7 +35,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="end-date-day" id="352A7A93-B89E-B007-8AEA-E9F3AD1E71A1">
+<Column name="Prev_Proj_end-date-day" id="352A7A93-B89E-B007-8AEA-E9F3AD1E71A1">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>5392D8C1-99B5-4354-339A-66AADB1738DF</generatorID>
@@ -46,7 +47,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="end-date-year" id="2146C94E-EBD7-4925-58DA-FF47B754184B">
+<Column name="Prev_Proj_end-date-year" id="2146C94E-EBD7-4925-58DA-FF47B754184B">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>49D13207-A584-5657-5DB9-C7BAAFCBBCD9</generatorID>
@@ -58,7 +59,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="est-person-hours" id="0F638A7F-DE60-DCA6-FC17-C4E9FBEFDB86">
+<Column name="Prev_Proj_est-person-hours" id="0F638A7F-DE60-DCA6-FC17-C4E9FBEFDB86">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>DBF57C85-3292-DB3A-B4CE-498D105E66BC</generatorID>
@@ -84,7 +85,7 @@
 <colUsage columnID="9BBE7A83-940F-1631-18B1-423D79E5A992"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E248C616-448D-3120-B052-98AF4242627E" name="SP16_Previous_Project_SP16_Project_FK">
+<ind_PK_UK id="E248C616-448D-3120-B052-98AF4242627E" name="SP16_Prev_Proj_Project_FK">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>DCEA1699-80DA-C161-A80D-BF3094F0C326</generatorID>

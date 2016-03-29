@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAE90B6B-93FA-5C91-A11E-B890BCF81999" name="SP16_Project_Employee">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAE90B6B-93FA-5C91-A11E-B890BCF81999" name="SP16_Proj_Emp">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>50966030-72DB-EE7E-7DF3-857330FC7D56</generatorID>
 <ownerDesignName>project1</ownerDesignName>
+<abbreviation>Proj_Emp</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -20,6 +21,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="744E5DCD-1C24-8F83-3657-7E49D669EF73" referredColumn="F3813CFA-0DE6-351E-C6DC-BC704F5DD3E7"/>
+<colAssociation fkAssociation="11AA94BB-A674-E2EA-AD91-CF768450E888" referredColumn="4DBD3C0F-919C-A183-878B-F20AC63D873F"/>
 </associations>
 </Column>
 </columns>
@@ -36,7 +38,7 @@
 <colUsage columnID="714DA02F-BD30-4A83-7CDF-791799580E59"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BFE9730E-82B0-D181-9270-D25461696DE6" name="SP16_Project_Employee_SP16_Employee_FK">
+<ind_PK_UK id="BFE9730E-82B0-D181-9270-D25461696DE6" name="SP16_Proj_Emp_Emp_FK">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 22:33:00 UTC</createdTime>
 <generatorID>AC993FD0-FEFF-B00B-9CBF-BA57A775087C</generatorID>
@@ -47,13 +49,16 @@
 <colUsage columnID="714DA02F-BD30-4A83-7CDF-791799580E59"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="787654D7-2318-B086-D982-BE021D8D395A" name="SP16_R4v1">
+<ind_PK_UK id="D042D21D-5CAA-FB84-7A92-ED93F3BB1DC6" name="SP16_R4v1">
 <createdBy>brittkvanvig</createdBy>
-<createdTime>2016-03-27 22:58:12 UTC</createdTime>
+<createdTime>2016-03-29 23:17:38 UTC</createdTime>
 <generatorID>5A806348-67BB-A4E8-5F81-75E2608DA396</generatorID>
 <ownerDesignName>project1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="714DA02F-BD30-4A83-7CDF-791799580E59"/>
+</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

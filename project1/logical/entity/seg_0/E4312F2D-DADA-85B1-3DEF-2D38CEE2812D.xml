@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4312F2D-DADA-85B1-3DEF-2D38CEE2812D" name="SP16_Previous_Employee">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4312F2D-DADA-85B1-3DEF-2D38CEE2812D" name="SP16_Prev_Emp">
 <createdBy>brittkvanvig</createdBy>
 <createdTime>2016-03-27 21:51:13 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>Prev_Emp</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="isFired" id="BFC23ECF-3A64-E8CB-52B4-B452BFA75BF5">
 <createdBy>brittkvanvig</createdBy>
@@ -27,8 +28,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="salary" id="7B48A8E5-3D4A-F705-C5CB-88B3B1272EB3">
 <createdBy>brittkvanvig</createdBy>
